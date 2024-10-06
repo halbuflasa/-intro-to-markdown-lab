@@ -8,17 +8,17 @@ const functionName = (params) => {
   // code to be executed
 }
 
-**const:** const should be used whenever a function expression is assigned to a variable.
-**The function name:** The name you choose for the function.
-**Parameters:** Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
-**The arrow syntax:** Indicates that this will be a function.
-**The body:** The statements that make up the function itself. Surrounded by curly braces.
+- **const:** const should be used whenever a function expression is assigned to a variable.
+- **The function name:** The name you choose for the function.
+- **Parameters:** Optional comma separated parameters. This is the data passed into the function. If there are no parameters, the () is still required.
+- **The arrow syntax:** Indicates that this will be a function.
+- **The body:** The statements that make up the function itself. Surrounded by curly braces.
 
 Example:
 
-const greet = (name) => {
+```const greet = (name) => {
   console.log("Hello, " + name + "!");
-}
+}```
 
 Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
