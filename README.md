@@ -32,7 +32,9 @@ To execute the function, you *call* or invoke it by using its name followed by p
 
 *Example:*
 
+```javascript
 greet('Alice'); // Outputs: Hello, Alice!
+```
 
 ## 3. Return values
 
@@ -50,5 +52,4 @@ const total = addNums(2, 4);
 console.log(total) // Expected value: 6
 ```
 
-For more information on functions and how they are used in JS, check out the [MDN docs][MDN].
-[MDN]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
+For more information on functions and how they are used in JS, check out the [MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions).
